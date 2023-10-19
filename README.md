@@ -13,4 +13,5 @@ Currently, two official plugins are available:
 2. yarn dev
 ```
 
+![Screenshot](https://github.com/pranaysalve/react-js-app-analytics/blob/haixdashboard/public/Screenshot%202023-10-20%20at%203.55.50%20AM.png)
 
