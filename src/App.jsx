@@ -9,8 +9,6 @@ import {
 } from "./service/service";
 import Searchbar from "./components/Searchbar";
 import TopCards from "./components/TopCards";
-import SentimentChart from "./components/SentimentChart";
-import CardWithNavTab from "./components/CardWithNavTab";
 import ListComponent from "./components/ListComponent";
 import { PlotlyLineChart } from "./components/PlotlyLineChart";
 import { CardLG } from "./components/Card";
@@ -55,7 +53,6 @@ function App() {
             title="Social Media Followers"
             childComponent={<TopCards followers={followers} />}
           />
-          {/* <TopCards followers={followers} /> */}
         </div>
         <div className="col-span-2 ">
           <CardLG
@@ -66,7 +63,7 @@ function App() {
           />
         </div>
       </div>
-      <div className="p-4 grid md:grid-cols-3 grid-cols-1 gap-4">
+      <div className="p-1 grid md:grid-cols-3 grid-cols-1 gap-1">
         <div className="flex">
           <CardLG
             title="#HashTags"
