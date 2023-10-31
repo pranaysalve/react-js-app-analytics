@@ -47,7 +47,7 @@ function App() {
   return (
     <main className="bg-gray-100 min-h-screen">
       <Searchbar />
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="flex">
           <CardLG
             title="Social Media Followers"

@@ -2,7 +2,7 @@
 
 const Searchbar = () => {
   return (
-    <div className="grid lg:grid-cols-1 gap-4 p-4 px-96">
+    <div className="grid md:grid-cols-1 p-4 md:px-96">
       <form>
         <div className="relative">
           <input
